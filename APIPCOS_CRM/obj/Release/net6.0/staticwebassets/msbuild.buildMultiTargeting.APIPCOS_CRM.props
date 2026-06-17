@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APIPCOS_CRM.props" />
+</Project>

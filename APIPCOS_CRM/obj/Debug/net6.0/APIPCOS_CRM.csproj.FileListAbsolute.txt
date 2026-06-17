@@ -1,0 +1,438 @@
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_.AC93D15D.Up2Date
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\HPDQ\Projects HPDQ\Software\1_Phung Van Tuan\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CopyComplete
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_.AC93D15D.Up2Date
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CopyComplete
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+C:\Users\support\OneDrive - hoaphat.com.vn\Desktop\EPORTAL_09-09-2023\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.AssemblyReference.cache
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.GeneratedMSBuildEditorConfig.editorconfig
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfoInputs.cache
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.AssemblyInfo.cs
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.csproj.CoreCompileInputs.cache
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cs
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.MvcApplicationPartsAssemblyInfo.cache
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\refint\APIPCOS_CRM.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.pdb
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.Development.json
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\appsettings.json
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.staticwebassets.endpoints.json
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.exe
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.deps.json
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.runtimeconfig.json
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.pdb
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\BCrypt.Net-Core.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Humanizer.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\X.PagedList.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\scopedcss\bundle\APIPCOS_CRM.styles.css
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.json
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.development.json
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssets.props
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.build.APIPCOS_CRM.props
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.APIPCOS_CRM.props
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.APIPCOS_CRM.props
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.pack.json
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_.AC93D15D.Up2Date
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_CRM.genruntimeconfig.cache
+E:\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\ref\APIPCOS_CRM.dll
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.staticwebassets.endpoints.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+\\10.192.39.34\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\APIPCOS_.AC93D15D.Up2Date
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\bin\Debug\net6.0\APIPCOS_CRM.staticwebassets.endpoints.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets\msbuild.APIPCOS_CRM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\HPDQ\Projects HPDQ\Software\7_Diep Huynh Bao Bao\APIPCOS_CRM\APIPCOS_CRM\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
