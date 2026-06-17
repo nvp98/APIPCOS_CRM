@@ -7,11 +7,20 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 
 // Configure DbContext
 builder.Services.AddDbContext<PLCOS_Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
+
+var bkmis11Version = ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("Bkmis_11"));
+builder.Services.AddDbContext<Bkmis11_Context>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("Bkmis_11"), bkmis11Version));
+
+var bkmis13Version = ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("Bkmis_13"));
+builder.Services.AddDbContext<Bkmis13_Context>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("Bkmis_13"), bkmis13Version));
 builder.Services.AddScoped<UnitOfWork>();
 // Add repositories
 builder.Services.AddScoped<UserRepository>();
@@ -29,7 +38,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Basic Authorization header using the Basic scheme."
     });
 
-    // ??nh ngh?a yêu c?u Security cho các endpoint
+    // ??nh ngh?a yï¿½u c?u Security cho cï¿½c endpoint
     c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
     {
         {

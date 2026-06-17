@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HPDQ\\Projects HPDQ\\Software\\7_Diep Huynh Bao Bao\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj": {}
+    "E:\\_Projects\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj": {}
   },
   "projects": {
-    "D:\\HPDQ\\Projects HPDQ\\Software\\7_Diep Huynh Bao Bao\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj": {
+    "E:\\_Projects\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HPDQ\\Projects HPDQ\\Software\\7_Diep Huynh Bao Bao\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj",
+        "projectUniqueName": "E:\\_Projects\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj",
         "projectName": "APIPCOS_CRM",
-        "projectPath": "D:\\HPDQ\\Projects HPDQ\\Software\\7_Diep Huynh Bao Bao\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj",
-        "packagesPath": "C:\\Users\\phungvantuan\\.nuget\\packages\\",
-        "outputPath": "D:\\HPDQ\\Projects HPDQ\\Software\\7_Diep Huynh Bao Bao\\APIPCOS_CRM\\APIPCOS_CRM\\obj\\",
+        "projectPath": "E:\\_Projects\\APIPCOS_CRM\\APIPCOS_CRM\\APIPCOS_CRM.csproj",
+        "packagesPath": "C:\\Users\\lythanhnam\\.nuget\\packages\\",
+        "outputPath": "E:\\_Projects\\APIPCOS_CRM\\APIPCOS_CRM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\phungvantuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lythanhnam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -44,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "BCrypt.Net-Core": {
@@ -71,6 +74,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -100,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108\\RuntimeIdentifierGraph.json"
         }
       }
     }
