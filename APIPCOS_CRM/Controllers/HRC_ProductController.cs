@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace APIPCOS_CRM.Controllers
 {
     [ApiController]
-    [AllowAnonymous]
+    [Authorize]
     [Route("api/[controller]")]
     [EnableCors("AllowAllOrigins")]
     public class HRC_ProductController : ControllerBase
