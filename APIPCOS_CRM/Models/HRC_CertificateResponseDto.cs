@@ -3,13 +3,13 @@ namespace APIPCOS_CRM.Models
     public class HRC_CertificateResponseDto
     {
         // Default
-        public string Name { get; set; } = "PHIẾU CHỨNG NHẬN CHẤT LƯỢNG";
+        public string Name { get; set; }
 
         // null - chờ logic điền
         public string? HPDQ_Certificate_No__c { get; set; }
 
         // PhieuXuatHang_HRC.IssueDate
-        public DateTime? HPDQ_Issue_Date__c { get; set; }
+        public string? HPDQ_Issue_Date__c { get; set; }
 
         // PhieuXuatHang_HRC.PartnerName
         public string? HPDQ_Project__c { get; set; }

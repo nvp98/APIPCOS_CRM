@@ -148,10 +148,13 @@ namespace APIPCOS_CRM.Repository
                 return obj;
             }).ToList();
 
+            var Name = $"Phiếu chứng nhận chất lượng - {first?.SO} - {first?.PartnerName}";
+
             return new HRC_CertificateResponseDto
             {
+                Name = Name,
                 HPDQ_Certificate_No__c    = $"0000-07{DateTime.Now:MMyy}/HOAPHAT",
-                HPDQ_Issue_Date__c        = first?.IssueDate,
+                HPDQ_Issue_Date__c        = DateTime.Now.ToString("yyyy-MM-dd"),
                 HPDQ_Project__c           = first?.PartnerName,
                 HPDQ_Grade__c             = first?.GradeCode,
                 HPDQ_SAP_Customer_Code__c = request.CustomerCode,
