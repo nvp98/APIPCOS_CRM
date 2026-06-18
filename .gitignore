@@ -1,0 +1,53 @@
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+**/packages/
+!**/packages/build/
+nuget.config
+
+# Logs
+*.log
+logs/
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / config nhạy cảm
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.p12
+*.key
+
+# Test results
+TestResults/
+coverage/
+*.trx
+*.coveragexml
+
+# Publish output
+publish/
+**/PublishProfiles/
+
+# Temporary files
+*.tmp
+*.temp
+~$*

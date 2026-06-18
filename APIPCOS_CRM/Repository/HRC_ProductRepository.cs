@@ -126,8 +126,8 @@ namespace APIPCOS_CRM.Repository
                 {
                     ["stt"]                  = index + 1,
                     ["coil_no"]              = p.ProductLotName,
-                    ["thickness_mm"]         = null, // TODO: xác định nguồn
-                    ["width_mm"]             = null, // TODO: xác định nguồn
+                    ["thickness_mm"]         = p.Thick,
+                    ["width_mm"]             = p.Width, 
                     ["length"]               = p.Length,
                     ["weight_kg"]            = p.Weight,
                     ["heat_no"]              = p.BilletLotname,
@@ -135,7 +135,7 @@ namespace APIPCOS_CRM.Repository
                     ["tensile_strength_MPa"] = p.Tensile,
                     ["elongation_pct"]       = p.Elongation,
                     ["hardness_HRB"]         = p.HRB,
-                    ["bending_test"]         = null, // TODO: xác định nguồn
+                    ["bending_test"]         = p.BendTest,
                 };
 
                 foreach (var key in configKeys)

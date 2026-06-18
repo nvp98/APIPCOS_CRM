@@ -53,5 +53,8 @@ namespace APIPCOS_CRM.Data
 
     public string? ClassifyName { get; set; }
     public string? ChemicalDetail { get; set; }
+    public string? BendTest { get; set; }
+    public string? Thick { get; set; }
+    public string? Width { get; set; }
     }
 }
