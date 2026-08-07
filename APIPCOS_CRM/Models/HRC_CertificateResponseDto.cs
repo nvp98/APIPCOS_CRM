@@ -37,6 +37,8 @@ namespace APIPCOS_CRM.Models
 
         // Default cố định
         public string HPDQ_Configuration__c { get; set; } = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV";
+        public string? HPDQ_SO { get; set; }
+        public string? HPDQ_Transport { get; set; }
 
         public object? HPDQ_Data__c { get; set; }
     }
