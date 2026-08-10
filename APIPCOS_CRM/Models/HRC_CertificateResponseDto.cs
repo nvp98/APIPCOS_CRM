@@ -41,5 +41,6 @@ namespace APIPCOS_CRM.Models
         public string? HPDQ_Transport { get; set; }
 
         public object? HPDQ_Data__c { get; set; }
+        public string? EndUser { get; set; } = null!;
     }
 }

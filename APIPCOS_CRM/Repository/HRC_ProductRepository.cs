@@ -31,9 +31,13 @@ namespace APIPCOS_CRM.Repository
                 ["Al"]  = p => ScaleAndRound(p.Al,  1),
                 ["B"]   = p => ScaleAndRound(p.B,   1),
                 ["CA"]  = p => ScaleAndRound(p.Ca,  1),
+                ["O"]  = p => ScaleAndRound(p.O,   1),
+                ["N"]   = p => ScaleAndRound(p.N,   1),
+                ["H"]   = p => ScaleAndRound(p.H,   1),
+                ["Nb"]  = p => ScaleAndRound(p.Nb,  1)
             };
 
-        private const string DefaultConfig = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV";
+        private const string DefaultConfig = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV;O;N;H;Nb";
 
         public HRC_ProductRepository(Bkmis11_Context bkmis11, Bkmis13_Context bkmis13)
         {
@@ -43,6 +47,11 @@ namespace APIPCOS_CRM.Repository
 
         public async Task<HRC_GetDataResult> GetDataAsync(HRC_ProductRequestDto request)
         {
+
+            if(request.CustomerCode == null)
+            {
+                throw new ArgumentException("CustomerCode cannot be null", nameof(request.CustomerCode));
+            }
             // 1. Lấy tất cả ProductName thuộc SO + Transporter
             var productNamesInSO = await GetProductNamesBySOAsync(request);
 
@@ -66,13 +75,49 @@ namespace APIPCOS_CRM.Repository
             };
         }
 
+        public const int DefaultTransporterPageSize = 30;
+        public const int MaxTransporterPageSize = 100;
+        public const int MinTransporterSearchLength = 2;
+
+        // Lấy danh sách Transporter distinct (không rỗng), có paging + bắt buộc tìm kiếm (autocomplete)
+        public async Task<(List<string> Items, int TotalCount)> GetDistinctTransportersAsync(int page, int pageSize, string searchText)
+        {
+            if (page < 1) page = 1;
+            if (pageSize < 1) pageSize = DefaultTransporterPageSize;
+            if (pageSize > MaxTransporterPageSize) pageSize = MaxTransporterPageSize;
+
+            // Scan 1 lần duy nhất (DISTINCT trên toàn bảng vốn đã nặng) rồi paging trong memory,
+            // thay vì gọi CountAsync + ToListAsync (2 lần full scan) như trước -> tránh timeout.
+            _bkmis13.Database.SetCommandTimeout(120);
+
+            var query = _bkmis13.PhieuXuatHang_HRCs
+                .Where(p => p.Transporter != null && p.Transporter != "")
+                .Where(p => EF.Functions.Like(p.Transporter, $"%{searchText}%"));
+
+            var allTransporters = await query
+                .Select(p => p.Transporter!)
+                .Distinct()
+                .OrderBy(t => t)
+                .ToListAsync();
+
+            var totalCount = allTransporters.Count;
+
+            var items = allTransporters
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            return (items, totalCount);
+        }
+
         // Lấy tất cả ProductName thuộc SO + filter Transporter LIKE
         private async Task<HashSet<string>> GetProductNamesBySOAsync(HRC_ProductRequestDto request)
         {
             var query = _bkmis13.PhieuXuatHang_HRCs
                 .Where(p => p.SO == request.SO && p.ProductName != null);
 
-            query = query.Where(p => EF.Functions.Like(p.Transporter, $"%{request.Transporter}%"));
+            if (!string.IsNullOrWhiteSpace(request.Transporter))
+                query = query.Where(p => EF.Functions.Like(p.Transporter, $"%{request.Transporter}%"));
 
             var names = await query
                 .Select(p => p.ProductName!)
@@ -95,9 +140,11 @@ namespace APIPCOS_CRM.Repository
                          && p.ProductName != null
                          && validIDs.Contains(p.ProductName));
 
-            query = query.Where(p => EF.Functions.Like(p.Transporter, $"%{request.Transporter}%"));
+            if (!string.IsNullOrWhiteSpace(request.Transporter))
+                query = query.Where(p => EF.Functions.Like(p.Transporter, $"%{request.Transporter}%"));
 
-            return await query.ToListAsync();
+            // 1 SO có thể có nhiều Transporter -> lấy theo InTime sớm nhất để BuildResponse.FirstOrDefault() ổn định
+            return await query.OrderBy(p => p.InTime).ToListAsync();
         }
 
         // Lấy HRC_Product theo validIDs
@@ -125,7 +172,7 @@ namespace APIPCOS_CRM.Repository
                 var obj = new Dictionary<string, object?>
                 {
                     ["stt"]                  = index + 1,
-                    ["coil_no"]              = p.ProductLotName,
+                    ["coil_no"]              = p.ProductName,
                     ["thickness_mm"]         = p.Thick,
                     ["width_mm"]             = p.Width, 
                     ["length"]               = p.Length,
@@ -135,6 +182,8 @@ namespace APIPCOS_CRM.Repository
                     ["tensile_strength_MPa"] = p.Tensile,
                     ["elongation_pct"]       = p.Elongation,
                     ["hardness_HRB"]         = p.HRB,
+                    ["impact_energy"]     = p.ImpactEnergy,
+                    ["chemical_composition"]  = p.ChemicalDetail,
                     ["bending_test"]         = p.BendTest,
                 };
 
@@ -165,6 +214,7 @@ namespace APIPCOS_CRM.Repository
                 HPDQ_Configuration__c     = DefaultConfig,
                 HPDQ_SO                   = first?.SO,
                 HPDQ_Transport            = first?.Transporter,
+                EndUser                   = request.EndUser,
                 HPDQ_Data__c              = dataItems
             };
         }
