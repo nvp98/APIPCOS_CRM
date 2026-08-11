@@ -210,7 +210,7 @@ namespace APIPCOS_CRM.Repository
                 HPDQ_Standard__c          = first?.StandardCode,
                 HPDQ_Contract__c          = first != null ? $"{first.SO} - {first.PurchaseOrderCode}" : null,
                 HPDQ_Total_Weight__c      = phieuXuatList.Sum(p => p.Weight ?? 0),
-                HPDQ_Total_Coils__c       = request.ListID.Count,
+                HPDQ_Total_Coils__c       = productList.Count,
                 HPDQ_Configuration__c     = DefaultConfig,
                 HPDQ_SO                   = first?.SO,
                 HPDQ_Transport            = first?.Transporter,
