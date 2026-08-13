@@ -167,6 +167,11 @@ namespace APIPCOS_CRM.Repository
             var first      = phieuXuatList.FirstOrDefault(p => p.SO == firstSO);
             var configKeys = DefaultConfig.Split(';');
 
+            // Chỉ lấy các SO thực sự có dữ liệu trong phieuXuatList, giữ đúng thứ tự trong request.SO
+            var existingSO = request.SO
+                .Where(so => phieuXuatList.Any(p => p.SO == so))
+                .ToList();
+
             // Build HPDQ_Data__c: mỗi HRC_Product → 1 Dictionary, chỉ trả đúng thành phần trong config
             var dataItems = productList.Select((p, index) =>
             {
@@ -207,7 +212,7 @@ namespace APIPCOS_CRM.Repository
                 var contractParts = new List<string> { first.PurchaseOrderCode ?? "" };
                 if (!string.IsNullOrWhiteSpace(first.Transporter))
                     contractParts.Add(first.Transporter);
-                contractParts.Add(string.Join(", ", request.SO));
+                contractParts.Add(string.Join(", ", existingSO));
                 contract = string.Join(" - ", contractParts);
             }
 
@@ -231,7 +236,7 @@ namespace APIPCOS_CRM.Repository
                 HPDQ_Total_Weight__c      = phieuXuatList.Sum(p => p.Weight ?? 0),
                 HPDQ_Total_Coils__c       = productList.Count,
                 HPDQ_Configuration__c     = DefaultConfig,
-                HPDQ_SO                   = first?.SO,
+                HPDQ_SO                   = existingSO,
                 HPDQ_Transport            = first?.Transporter,
                 EndUser                   = request.EndUser,
                 HPDQ_Data__c              = dataItems
