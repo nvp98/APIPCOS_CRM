@@ -114,7 +114,7 @@ namespace APIPCOS_CRM.Repository
         private async Task<HashSet<string>> GetProductNamesBySOAsync(HRC_ProductRequestDto request)
         {
             var query = _bkmis13.PhieuXuatHang_HRCs
-                .Where(p => p.SO == request.SO && p.ProductName != null);
+                .Where(p => request.SO.Contains(p.SO) && p.ProductName != null);
 
             if (!string.IsNullOrWhiteSpace(request.Transporter))
                 query = query.Where(p => EF.Functions.Like(p.Transporter, $"%{request.Transporter}%"));
@@ -136,7 +136,7 @@ namespace APIPCOS_CRM.Repository
                 return new List<PhieuXuatHang_HRC>();
 
             var query = _bkmis13.PhieuXuatHang_HRCs
-                .Where(p => p.SO == request.SO
+                .Where(p => request.SO.Contains(p.SO)
                          && p.ProductName != null
                          && validIDs.Contains(p.ProductName));
 
@@ -163,7 +163,8 @@ namespace APIPCOS_CRM.Repository
             List<PhieuXuatHang_HRC> phieuXuatList,
             List<HRC_Product> productList)
         {
-            var first      = phieuXuatList.FirstOrDefault();
+            var firstSO    = request.SO.FirstOrDefault();
+            var first      = phieuXuatList.FirstOrDefault(p => p.SO == firstSO);
             var configKeys = DefaultConfig.Split(';');
 
             // Build HPDQ_Data__c: mỗi HRC_Product → 1 Dictionary, chỉ trả đúng thành phần trong config
@@ -185,6 +186,7 @@ namespace APIPCOS_CRM.Repository
                     ["impact_energy"]     = p.ImpactEnergy,
                     ["chemical_composition"]  = p.ChemicalDetail,
                     ["bending_test"]         = p.BendTest,
+                    ["billet_grade_code"]         = p.BilletGradeCode,
                 };
 
                 foreach (var key in configKeys)
@@ -199,16 +201,33 @@ namespace APIPCOS_CRM.Repository
 
             var Name = $"Phiếu chứng nhận chất lượng - {first?.SO} - {first?.PartnerName}";
 
+            string? contract = null;
+            if (first != null)
+            {
+                var contractParts = new List<string> { first.PurchaseOrderCode ?? "" };
+                if (!string.IsNullOrWhiteSpace(first.Transporter))
+                    contractParts.Add(first.Transporter);
+                contractParts.Add(string.Join(", ", request.SO));
+                contract = string.Join(" - ", contractParts);
+            }
+
+            var macThep = productList
+                .Select(p => p.BilletGradeCode)
+                .Where(g => !string.IsNullOrWhiteSpace(g))
+                .Select(g => g!)
+                .Distinct()
+                .ToList();
+
             return new HRC_CertificateResponseDto
             {
                 Name = Name,
                 HPDQ_Certificate_No__c    = $"0000-07{DateTime.Now:MMyy}/HOAPHAT",
                 HPDQ_Issue_Date__c        = DateTime.Now.ToString("yyyy-MM-dd"),
                 HPDQ_Project__c           = first?.PartnerName,
-                HPDQ_Grade__c             = first?.GradeCode,
+                HPDQ_Grade__c             = macThep,
                 HPDQ_SAP_Customer_Code__c = request.CustomerCode,
                 HPDQ_Standard__c          = first?.StandardCode,
-                HPDQ_Contract__c          = first != null ? $"{first.SO} - {first.PurchaseOrderCode}" : null,
+                HPDQ_Contract__c          = contract,
                 HPDQ_Total_Weight__c      = phieuXuatList.Sum(p => p.Weight ?? 0),
                 HPDQ_Total_Coils__c       = productList.Count,
                 HPDQ_Configuration__c     = DefaultConfig,
