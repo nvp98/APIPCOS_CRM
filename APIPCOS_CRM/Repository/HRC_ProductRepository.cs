@@ -163,8 +163,8 @@ namespace APIPCOS_CRM.Repository
             List<PhieuXuatHang_HRC> phieuXuatList,
             List<HRC_Product> productList)
         {
-            var firstSO    = request.SO.FirstOrDefault();
-            var first      = phieuXuatList.FirstOrDefault(p => p.SO == firstSO);
+            // var firstSO    = request.SO.FirstOrDefault();
+            var first      = phieuXuatList.FirstOrDefault(p => request.SO.Contains(p.SO));
             var configKeys = DefaultConfig.Split(';');
 
             // Chỉ lấy các SO thực sự có dữ liệu trong phieuXuatList, giữ đúng thứ tự trong request.SO
