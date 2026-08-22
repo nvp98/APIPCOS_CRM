@@ -173,6 +173,14 @@ namespace APIPCOS_CRM.Repository
                 .ToList();
 
             // Build HPDQ_Data__c: mỗi HRC_Product → 1 Dictionary, chỉ trả đúng thành phần trong config
+            // Mác thép theo từng cuộn: PhieuXuatHang_HRC.GradeCode, khớp theo ProductName.
+            // 1 cuộn có thể nằm ở nhiều dòng phiếu xuất -> lấy giá trị không rỗng đầu tiên.
+            var gradeByCoil = phieuXuatList
+                .Where(p => !string.IsNullOrWhiteSpace(p.ProductName)
+                         && !string.IsNullOrWhiteSpace(p.GradeCode))
+                .GroupBy(p => p.ProductName!)
+                .ToDictionary(g => g.Key, g => g.First().GradeCode!.Trim());
+
             var dataItems = productList.Select((p, index) =>
             {
                 var obj = new Dictionary<string, object?>
@@ -192,6 +200,7 @@ namespace APIPCOS_CRM.Repository
                     ["chemical_composition"]  = p.ChemicalDetail,
                     ["bending_test"]         = p.BendTest,
                     ["billet_grade_code"]         = p.BilletGradeCode,
+                    ["grade_code"]           = gradeByCoil.TryGetValue(p.ProductName, out var gc) ? gc : null,
                 };
 
                 foreach (var key in configKeys)
@@ -216,10 +225,12 @@ namespace APIPCOS_CRM.Repository
                 contract = string.Join(" - ", contractParts);
             }
 
-            var macThep = productList
-                .Select(p => p.BilletGradeCode)
+            // Mác thép lấy từ PhieuXuatHang_HRC.GradeCode (mác thành phẩm).
+            // KHÔNG dùng HRC_Product.BilletGradeCode vì đó là mác phôi, có hậu tố khử oxy (-Al, -Si, -A, -B...)
+            var macThep = phieuXuatList
+                .Select(p => p.GradeCode)
                 .Where(g => !string.IsNullOrWhiteSpace(g))
-                .Select(g => g!)
+                .Select(g => g!.Trim())
                 .Distinct()
                 .ToList();
 

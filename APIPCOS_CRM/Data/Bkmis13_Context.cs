@@ -16,7 +16,10 @@ namespace APIPCOS_CRM.Data
 
             modelBuilder.Entity<PhieuXuatHang_HRC>(entity =>
             {
-                entity.HasKey(e => e.TicketID);
+                // KHONG dung HasKey(TicketID): 1 phieu xuat chua nhieu cuon, nen TicketID bi lap
+                // tren view (do ~3.8 dong/ticket). Khai bao khoa khien EF Core gop cac dong cung
+                // TicketID lai thanh 1 entity qua identity map -> mat phan lon du lieu cuon.
+                entity.HasNoKey();
                 entity.ToView("v_phieuxuathang_hrc");
             });
         }
