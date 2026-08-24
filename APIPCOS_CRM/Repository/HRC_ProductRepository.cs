@@ -9,32 +9,33 @@ namespace APIPCOS_CRM.Repository
         private readonly Bkmis11_Context _bkmis11;
         private readonly Bkmis13_Context _bkmis13;
 
-        private static double? ScaleAndRound(double? value, double factor)
-            => value.HasValue ? Math.Round(value.Value * factor, MidpointRounding.AwayFromZero) : null;
+        private static double? ScaleAndRound(double? value, double factor, int decimals = 0)
+            => value.HasValue ? Math.Round(value.Value * factor, decimals, MidpointRounding.AwayFromZero) : null;
 
-        // x100: C, Si, Mn, CEV | x1000: S, P, Cu, Ni, Cr, Mo | round only: V, Ti, Al, B, Ca
+        private const int ScaleDecimals = 2;
+
         private static readonly Dictionary<string, Func<HRC_Product, double?>> _chemicalMap =
             new(StringComparer.OrdinalIgnoreCase)
             {
-                ["C"]   = p => ScaleAndRound(p.C,   100),
-                ["Si"]  = p => ScaleAndRound(p.Si,  100),
-                ["Mn"]  = p => ScaleAndRound(p.Mn,  100),
-                ["CEV"] = p => ScaleAndRound(p.CEV, 100),
-                ["S"]   = p => ScaleAndRound(p.S,   1000),
-                ["P"]   = p => ScaleAndRound(p.P,   1000),
-                ["Cu"]  = p => ScaleAndRound(p.Cu,  1000),
-                ["Ni"]  = p => ScaleAndRound(p.Ni,  1000),
-                ["Cr"]  = p => ScaleAndRound(p.Cr,  1000),
-                ["Mo"]  = p => ScaleAndRound(p.Mo,  1000),
-                ["V"]   = p => ScaleAndRound(p.V,   1),
-                ["Ti"]  = p => ScaleAndRound(p.Ti,  1),
-                ["Al"]  = p => ScaleAndRound(p.Al,  1),
-                ["B"]   = p => ScaleAndRound(p.B,   1),
-                ["CA"]  = p => ScaleAndRound(p.Ca,  1),
-                ["O"]  = p => ScaleAndRound(p.O,   1),
-                ["N"]   = p => ScaleAndRound(p.N,   1),
-                ["H"]   = p => ScaleAndRound(p.H,   1),
-                ["Nb"]  = p => ScaleAndRound(p.Nb,  1)
+                ["C"]   = p => ScaleAndRound(p.C,   100, ScaleDecimals),
+                ["Si"]  = p => ScaleAndRound(p.Si,  100, ScaleDecimals),
+                ["Mn"]  = p => ScaleAndRound(p.Mn,  100, ScaleDecimals),
+                ["CEV"] = p => ScaleAndRound(p.CEV, 100, ScaleDecimals),
+                ["S"]   = p => ScaleAndRound(p.S,   1000, ScaleDecimals),
+                ["P"]   = p => ScaleAndRound(p.P,   1000, ScaleDecimals),
+                ["Cu"]  = p => ScaleAndRound(p.Cu,  1000, ScaleDecimals),
+                ["Ni"]  = p => ScaleAndRound(p.Ni,  1000, ScaleDecimals),
+                ["Cr"]  = p => ScaleAndRound(p.Cr,  1000, ScaleDecimals),
+                ["Mo"]  = p => ScaleAndRound(p.Mo,  1000, ScaleDecimals),
+                ["V"]   = p => ScaleAndRound(p.V,   1, ScaleDecimals),
+                ["Ti"]  = p => ScaleAndRound(p.Ti,  1, ScaleDecimals),
+                ["Al"]  = p => ScaleAndRound(p.Al,  1, ScaleDecimals),
+                ["B"]   = p => ScaleAndRound(p.B,   1, ScaleDecimals),
+                ["CA"]  = p => ScaleAndRound(p.Ca,  1, ScaleDecimals),
+                ["O"]   = p => ScaleAndRound(p.O,   1, ScaleDecimals),
+                ["N"]   = p => ScaleAndRound(p.N,   1, ScaleDecimals),
+                ["H"]   = p => ScaleAndRound(p.H,   1, ScaleDecimals),
+                ["Nb"]  = p => ScaleAndRound(p.Nb,  1, ScaleDecimals)
             };
 
         private const string DefaultConfig = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV;O;N;H;Nb";
@@ -173,6 +174,14 @@ namespace APIPCOS_CRM.Repository
                 .ToList();
 
             // Build HPDQ_Data__c: mỗi HRC_Product → 1 Dictionary, chỉ trả đúng thành phần trong config
+            // Mác thép theo từng cuộn: PhieuXuatHang_HRC.GradeCode, khớp theo ProductName.
+            // 1 cuộn có thể nằm ở nhiều dòng phiếu xuất -> lấy giá trị không rỗng đầu tiên.
+            var gradeByCoil = phieuXuatList
+                .Where(p => !string.IsNullOrWhiteSpace(p.ProductName)
+                         && !string.IsNullOrWhiteSpace(p.GradeCode))
+                .GroupBy(p => p.ProductName!)
+                .ToDictionary(g => g.Key, g => g.First().GradeCode!.Trim());
+
             var dataItems = productList.Select((p, index) =>
             {
                 var obj = new Dictionary<string, object?>
@@ -192,6 +201,7 @@ namespace APIPCOS_CRM.Repository
                     ["chemical_composition"]  = p.ChemicalDetail,
                     ["bending_test"]         = p.BendTest,
                     ["billet_grade_code"]         = p.BilletGradeCode,
+                    ["grade_code"]           = gradeByCoil.TryGetValue(p.ProductName, out var gc) ? gc : null,
                 };
 
                 foreach (var key in configKeys)
@@ -216,10 +226,12 @@ namespace APIPCOS_CRM.Repository
                 contract = string.Join(" - ", contractParts);
             }
 
-            var macThep = productList
-                .Select(p => p.BilletGradeCode)
+            // Mác thép lấy từ PhieuXuatHang_HRC.GradeCode (mác thành phẩm).
+            // KHÔNG dùng HRC_Product.BilletGradeCode vì đó là mác phôi, có hậu tố khử oxy (-Al, -Si, -A, -B...)
+            var macThep = phieuXuatList
+                .Select(p => p.GradeCode)
                 .Where(g => !string.IsNullOrWhiteSpace(g))
-                .Select(g => g!)
+                .Select(g => g!.Trim())
                 .Distinct()
                 .ToList();
 

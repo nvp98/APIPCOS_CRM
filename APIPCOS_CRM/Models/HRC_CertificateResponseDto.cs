@@ -17,7 +17,7 @@ namespace APIPCOS_CRM.Models
         // Default
         public string HPDQ_Product__c { get; set; } = "THÉP CUỘN CÁN NÓNG/HOT ROLLED COIL";
 
-        // Distinct HRC_Product.BilletGradeCode của productList
+        // Distinct PhieuXuatHang_HRC.GradeCode (mác thành phẩm) của phieuXuatList
         public List<string> HPDQ_Grade__c { get; set; } = new();
 
         // HRC_ProductRequestDto.CustomerCode
