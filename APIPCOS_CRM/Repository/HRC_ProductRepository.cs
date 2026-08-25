@@ -228,11 +228,27 @@ namespace APIPCOS_CRM.Repository
 
             // Mác thép lấy từ PhieuXuatHang_HRC.GradeCode (mác thành phẩm).
             // KHÔNG dùng HRC_Product.BilletGradeCode vì đó là mác phôi, có hậu tố khử oxy (-Al, -Si, -A, -B...)
-            var macThep = phieuXuatList
-                .Select(p => p.GradeCode)
-                .Where(g => !string.IsNullOrWhiteSpace(g))
-                .Select(g => g!.Trim())
-                .Distinct()
+            // GroupBy giữ thứ tự xuất hiện đầu tiên (phieuXuatList đã OrderBy InTime).
+            // Cả 3 field mác/tiêu chuẩn bên dưới cùng dựng từ gradeStandards này -> không thể lệch thứ tự.
+            var gradeStandards = phieuXuatList
+                .Where(p => !string.IsNullOrWhiteSpace(p.GradeCode))
+                .GroupBy(p => p.GradeCode!.Trim())
+                .Select(g => new HRC_GradeStandardDto
+                {
+                    Grade     = g.Key,
+                    Standards = g.Select(p => p.StandardCode)
+                                 .Where(s => !string.IsNullOrWhiteSpace(s))
+                                 .Select(s => s!.Trim())
+                                 .Distinct()
+                                 .ToList()
+                })
+                .ToList();
+
+            var macThep = gradeStandards.Select(g => g.Grade).ToList();
+
+            // 1 mác có thể gắn nhiều StandardCode -> gộp bằng ", " để giữ đúng 1-1 theo index với macThep.
+            var tieuChuan = gradeStandards
+                .Select(g => string.Join(", ", g.Standards))
                 .ToList();
 
             return new HRC_CertificateResponseDto
@@ -243,7 +259,8 @@ namespace APIPCOS_CRM.Repository
                 HPDQ_Project__c           = first?.PartnerName,
                 HPDQ_Grade__c             = macThep,
                 HPDQ_SAP_Customer_Code__c = request.CustomerCode,
-                HPDQ_Standard__c          = first?.StandardCode,
+                HPDQ_Standard__c          = tieuChuan,
+                HPDQ_Grade_Standards      = gradeStandards,
                 HPDQ_Contract__c          = contract,
                 HPDQ_Total_Weight__c      = phieuXuatList.Sum(p => p.Weight ?? 0),
                 HPDQ_Total_Coils__c       = productList.Count,

@@ -23,8 +23,14 @@ namespace APIPCOS_CRM.Models
         // HRC_ProductRequestDto.CustomerCode
         public string? HPDQ_SAP_Customer_Code__c { get; set; }
 
-        // PhieuXuatHang_HRC.StandardCode
-        public string? HPDQ_Standard__c { get; set; }
+        // PhieuXuatHang_HRC.StandardCode gom theo từng mác thép.
+        // Cùng số phần tử & cùng thứ tự với HPDQ_Grade__c: HPDQ_Standard__c[i] là tiêu chuẩn của HPDQ_Grade__c[i].
+        // Mác không có tiêu chuẩn -> chuỗi rỗng (giữ đúng index).
+        public List<string> HPDQ_Standard__c { get; set; } = new();
+
+        // Cặp mác thép <-> tiêu chuẩn cho FE render bảng (mỗi mác kèm list tiêu chuẩn riêng).
+        // Cùng nguồn & cùng thứ tự với HPDQ_Grade__c / HPDQ_Standard__c, chỉ khác cách đóng gói.
+        public List<HRC_GradeStandardDto> HPDQ_Grade_Standards { get; set; } = new();
 
         // PhieuXuatHang_HRC.SO + "-" + PurchaseOrderCode
         public string? HPDQ_Contract__c { get; set; }
