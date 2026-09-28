@@ -1,4 +1,4 @@
-using APIPCOS_CRM.Data;
+﻿using APIPCOS_CRM.Data;
 using APIPCOS_CRM.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -182,6 +182,18 @@ namespace APIPCOS_CRM.Repository
                 .GroupBy(p => p.ProductName!)
                 .ToDictionary(g => g.Key, g => g.First().GradeCode!.Trim());
 
+            // SO theo từng cuộn (21/09/2026) — cùng nguồn PhieuXuatHang_HRC, cùng cách lấy như
+            // gradeByCoil. Cần cho nút "Đồng bộ BK-MIS": BK-MIS khai `so` ở mức CUỘN, mà phiếu
+            // gộp nhiều SO thì phía Salesforce không biết cuộn nào thuộc SO nào nếu ở đây không trả.
+            // phieuXuatList đã lọc theo request.SO nên SO lấy ra luôn là một trong các SO người
+            // dùng gõ. Cuộn nằm ở nhiều dòng phiếu xuất (nhiều SO) -> lấy dòng InTime sớm nhất
+            // (danh sách đã OrderBy InTime), nhất quán với gradeByCoil.
+            var soByCoil = phieuXuatList
+                .Where(p => !string.IsNullOrWhiteSpace(p.ProductName)
+                         && !string.IsNullOrWhiteSpace(p.SO))
+                .GroupBy(p => p.ProductName!)
+                .ToDictionary(g => g.Key, g => g.First().SO!.Trim());
+
             var dataItems = productList.Select((p, index) =>
             {
                 var obj = new Dictionary<string, object?>
@@ -202,6 +214,7 @@ namespace APIPCOS_CRM.Repository
                     ["bending_test"]         = p.BendTest,
                     ["billet_grade_code"]         = p.BilletGradeCode,
                     ["grade_code"]           = gradeByCoil.TryGetValue(p.ProductName, out var gc) ? gc : null,
+                    ["so"]                   = soByCoil.TryGetValue(p.ProductName, out var so) ? so : null,
                 };
 
                 foreach (var key in configKeys)
