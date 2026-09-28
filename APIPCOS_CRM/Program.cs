@@ -1,4 +1,4 @@
-using APIPCOS_CRM.Data;
+﻿using APIPCOS_CRM.Data;
 using APIPCOS_CRM.Helper;
 using APIPCOS_CRM.Repository;
 using Microsoft.AspNetCore.Authentication;
@@ -22,6 +22,8 @@ var bkmis13Version = ServerVersion.AutoDetect(builder.Configuration.GetConnectio
 builder.Services.AddDbContext<Bkmis13_Context>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("Bkmis_13"), bkmis13Version));
 builder.Services.AddScoped<UnitOfWork>();
+// Cầu sang BK-MIS (đẩy phiếu MTC HRC) — cấu hình ở section BkMis
+builder.Services.AddHttpClient<APIPCOS_CRM.Services.BkMisClient>();
 // Add repositories
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddHttpContextAccessor();
