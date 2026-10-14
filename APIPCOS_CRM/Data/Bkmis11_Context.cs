@@ -17,7 +17,9 @@ namespace APIPCOS_CRM.Data
             modelBuilder.Entity<HRC_Product>(entity =>
             {
                 entity.HasNoKey();
-                entity.ToView("view_hrcproduct");
+                // Doi sang view_hrcproduct_v2 (14/10/2026): view cu tra NHIEU dong cho cuon co nhieu
+                // mau thu -> phieu MTC lap cuon va cong du Tong so cuon (BuildResponse khong loc trung).
+                entity.ToView("view_hrcproduct_v2");
             });
         }
     }
