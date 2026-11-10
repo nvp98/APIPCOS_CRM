@@ -35,10 +35,20 @@ namespace APIPCOS_CRM.Repository
                 ["O"]   = p => ScaleAndRound(p.O,   1, ScaleDecimals),
                 ["N"]   = p => ScaleAndRound(p.N,   1, ScaleDecimals),
                 ["H"]   = p => ScaleAndRound(p.H,   1, ScaleDecimals),
-                ["Nb"]  = p => ScaleAndRound(p.Nb,  1, ScaleDecimals)
+                ["Nb"]  = p => ScaleAndRound(p.Nb,  1, ScaleDecimals),
+                // Pb (10/11/2026): view tra billetlot.pb THO (%), khong nhan 10000 nhu nhom
+                // V/Ti/Al/Nb -> nhan o day de cung nhom "x 10.000" voi Nb tren phieu.
+                // Neu BK sua view thanh pb * 10000 thi PHAI doi he so nay ve 1, khong la x10.000 lan 2.
+                ["Pb"]  = p => ScaleAndRound(p.Pb,  10000, ScaleDecimals)
             };
 
-        private const string DefaultConfig = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV;O;N;H;Nb";
+        private const string DefaultConfig = "C;Si;Mn;S;P;Cu;Ni;Cr;Mo;V;Ti;Al;B;CA;CEV;O;N;H;Nb;Pb";
+
+        // Co tinh: co gia tri "random" (cot Ran* cua view) thi lay Ran, khong thi lay cot cu.
+        // "Khong co" = NULL hoac 0: gia tri co tinh 0 la vo nghia (do 10/11/2026: 2.490 cuon co Ran,
+        // khong cuon nao Ran = 0), coi 0 la co thi phieu in 0 MPa.
+        private static double? CoTinh(double? ran, double? cu)
+            => ran.HasValue && ran.Value != 0 ? ran : cu;
 
         public HRC_ProductRepository(Bkmis11_Context bkmis11, Bkmis13_Context bkmis13)
         {
@@ -205,11 +215,11 @@ namespace APIPCOS_CRM.Repository
                     ["length"]               = p.Length,
                     ["weight_kg"]            = p.Weight,
                     ["heat_no"]              = p.BilletLotname,
-                    ["yield_strength_MPa"]   = p.Yeild,
-                    ["tensile_strength_MPa"] = p.Tensile,
-                    ["elongation_pct"]       = p.Elongation,
-                    ["hardness_HRB"]         = p.HRB,
-                    ["impact_energy"]     = p.ImpactEnergy,
+                    ["yield_strength_MPa"]   = CoTinh(p.RanYeild,   p.Yeild),
+                    ["tensile_strength_MPa"] = CoTinh(p.RanTensile, p.Tensile),
+                    ["elongation_pct"]       = CoTinh(p.RanElong,   p.Elongation),
+                    ["hardness_HRB"]         = CoTinh(p.RanHRB,     p.HRB),
+                    ["impact_energy"]        = CoTinh(p.RanImpact,  p.ImpactEnergy),
                     ["chemical_composition"]  = p.ChemicalDetail,
                     ["bending_test"]         = p.BendTest,
                     ["billet_grade_code"]         = p.BilletGradeCode,

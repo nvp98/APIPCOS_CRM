@@ -15,6 +15,14 @@ namespace APIPCOS_CRM.Data
     public double? Elongation { get; set; }
     public double? HRB { get; set; }
     public double? ImpactEnergy { get; set; }
+    // Gia tri co tinh "random" (10/11/2026) — view lay tu pullrestraindetail_hrc, NULL khi cuon
+    // khong co. Co thi uu tien hon 5 cot cu, xem CoTinh() trong HRC_ProductRepository.
+    // Giu dung chinh ta cua view: "RanYeild".
+    public double? RanTensile { get; set; }
+    public double? RanYeild { get; set; }
+    public double? RanElong { get; set; }
+    public double? RanHRB { get; set; }
+    public double? RanImpact { get; set; }
     public string? SAPCode { get; set; }
     public string? SAPDescription { get; set; }
     public string? ShiftName { get; set; }
@@ -48,6 +56,8 @@ namespace APIPCOS_CRM.Data
     public double? N { get; set; }
     public double? H { get; set; }
     public double? Nb { get; set; }
+    // View dat ten cot chu thuong "pb" va lay THANG billetlot.pb (% — KHONG nhan 10000 nhu Nb/Al).
+    public double? Pb { get; set; }
     public double? Al_sol { get; set; }
     public double? Al_ins { get; set; }
 
